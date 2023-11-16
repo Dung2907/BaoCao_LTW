@@ -1,0 +1,23 @@
+{
+    "name": "trananhdung/shop-ban-hang",
+    "description": "Xay dung website ban hang- thay Loi day",
+    "authors": [
+        {
+            "name": "Trần Anh Dũng",
+            "email": "anhdungtran2015@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]   
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
